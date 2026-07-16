@@ -1,3 +1,21 @@
+from __future__ import annotations
+import asyncio
+import contextlib
+import contextvars
+import getpass
+import hashlib
+import json
+import logging
+import os
+import random
+import re
+import sqlite3
+import sys
+import threading
+import time
+from typing import Any
+
+# كود مكتبة التلجرام الذي وضعته سابقاً
 from telegram import (
     Update, 
     InlineKeyboardButton, 
