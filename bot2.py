@@ -1,23 +1,13 @@
-from __future__ import annotations
-import asyncio
-import contextlib
-import contextvars
-import getpass
-import hashlib
-import json
-import logging
-import os
-import random
-import re
-import sqlite3
-import sys
-import threading
-import time
-from typing import Any
-
-
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ChatMemberUpdated, ChatPermissions, MessageEntity, CopyTextButton
-from telegram.constants import KeyboardButtonStyle, ChatMemberStatus
+from telegram import (
+    Update, 
+    InlineKeyboardButton, 
+    InlineKeyboardMarkup, 
+    ChatMemberUpdated, 
+    ChatPermissions, 
+    MessageEntity, 
+    CopyTextButton
+)
+from telegram.constants import ChatMemberStatus
 import telegram.error
 from telegram.ext import (
     Application,
