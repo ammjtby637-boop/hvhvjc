@@ -3979,7 +3979,7 @@ bot('answercallbackquery',[
 $message_id           = $update->message->message_id;
 $text = $update->message->text;
 $chat_id = $update->message->chat->id;
-$admin = 7527455738;// Your Id 
+$admin = 8065884629;// Your Id 
 if(isset($update->callback_query)){
 $data = $update->callback_query->data;
 $chat_id = $update->callback_query->message->chat->id;
