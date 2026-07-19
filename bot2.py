@@ -1,5 +1,5 @@
-from bot1.py import register_admin_commands
-register_admin_commands(app)
+from bot1 import register_all_commands
+register_all_commands(app)
 
 from __future__ import annotations
 import asyncio
