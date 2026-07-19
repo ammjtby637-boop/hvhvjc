@@ -1,8 +1,5 @@
-import os
-import sys
-sys.path.insert(0, os.getcwd())
-import bot1
-bot1.register_all_commands(app)
+from bot1 import register_all_commands
+register_all_commands(app)
 
 from __future__ import annotations
 import asyncio
