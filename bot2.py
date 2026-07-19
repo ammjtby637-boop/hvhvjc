@@ -1,5 +1,6 @@
-from bot1 import register_all_commands
-register_all_commands(app)
+import bot1
+
+bot1.register_all_commands(app)
 
 from __future__ import annotations
 import asyncio
