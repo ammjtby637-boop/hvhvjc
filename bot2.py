@@ -1,3 +1,6 @@
+from bot1 import register_admin_commands
+register_admin_commands(app)
+
 from __future__ import annotations
 import asyncio
 import contextlib
