@@ -1,7 +1,4 @@
-import sys
-sys.path.insert(0, ".")
-import bot1
-bot1.register_all_commands(app)
+
 
 from __future__ import annotations
 import asyncio
