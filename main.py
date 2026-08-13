@@ -12,8 +12,8 @@ from pyrogram import Client, idle
 # REDIS_URL = Railway Redis connection URL
 # ============================================================
 
-token = os.getenv("BOT_TOKEN", "").strip()
-owner_raw = os.getenv("OWNER_ID", "").strip()
+token = os.getenv("BOT_TOKEN", "8516176029:AAHK_mtMsV-ikdD9j9ahKa99BIukwTzXAD0").strip()
+owner_raw = os.getenv("OWNER_ID", "8065884629").strip()
 
 if not token:
     print("[-] BOT_TOKEN is missing. Add BOT_TOKEN in Railway Variables.")
